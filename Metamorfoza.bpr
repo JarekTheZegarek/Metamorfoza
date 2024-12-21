@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Metamorfoza.exe"/>
+    <OBJFILES value="Metamorfoza.obj metamorfozis_w5.obj OkienkoSave.obj OkienkoPowitalne.obj 
+      Funkcje.obj ZbiorTablic.obj termopara.obj Wykres.obj StrukturaOpcje.obj 
+      RamkaOpcje.obj Eksport.obj Definicje.obj WykresPunktowy.obj 
+      UnitPrzelicznik.obj ZapisOdczytSesji.obj Rejestr.obj Prezentacja.obj 
+      ksztalt.obj Odczyt.obj Punkty.obj Test.obj"/>
+    <RESFILES value="Metamorfoza.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) metamorfozis_w5.dfm OkienkoSave.dfm OkienkoPowitalne.dfm 
+      RamkaOpcje.dfm WykresPunktowy.dfm UnitPrzelicznik.dfm Prezentacja.dfm 
+      ksztalt.dfm Test.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vcldbx.lib bdertl.lib vcldb.lib dbrtl.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib dbrtl.lib vcldb.lib bdertl.lib vcldbx.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi vcldb.bpi adortl.bpi 
+      ibsmp.bpi bdertl.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi 
+      dss.bpi teeqr.bpi ibxpress.bpi dsnap.bpi vclie.bpi inetdb.bpi inet.bpi 
+      nmfast.bpi webdsnap.bpi bcbie.bpi dclocx.bpi bcb97axserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_USE_OLD_RW_STL"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Metamorfoza.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\ProgramyWinXP\Builder6\Projects&quot;;..\..\..;c:\Personal\Jarek\programowanie\builder;..\Wersja3;&quot;..\Wersja 2&quot;;..;..\..\..\..;..\..\Projekt4;&quot;..\..\wszystkie pliki 3&quot;;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\ProgramyWinXP\Builder6\Projects&quot;;..\..\..;c:\Personal\Jarek\programowanie\builder;..\Wersja3;&quot;..\Wersja 2&quot;;..;..\..\..\..;..\..\Projekt4;&quot;..\..\wszystkie pliki 3&quot;;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\ProgramyWinXP\Builder6\Projects&quot; -I..\..\.. 
+      -Ic:\Personal\Jarek\programowanie\builder -I..\Wersja3 -I&quot;..\Wersja 2&quot; 
+      -I.. -I..\..\..\.. -I..\..\Projekt4 -I&quot;..\..\wszystkie pliki 3&quot; 
+      -I..\..\wszystkpliki_2 -I$(BCB)\bin -I$(BCB)\include -I$(BCB)\include\vcl 
+      -src_suffix cpp -D_USE_OLD_RW_STL -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcld.csm -Hc -Vx -Ve -X- -r- -a4 
+      -b- -k -y -v -vi- -c -tWM"/>
+    <CFLAG2 value=""/>
+    <CFLAG3 value=""/>
+    <PFLAGS value="-AWinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE 
+      -$YD -$W -$O- -$A8 -v -JPHNV -M -JPHNE"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -v"/>
+    <IFLAGS value=""/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Metamorfoza.cpp" FORMNAME="" UNITNAME="Metamorfoza" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Metamorfoza.res" FORMNAME="" UNITNAME="Metamorfoza" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="metamorfozis_w5.cpp" FORMNAME="Form1" UNITNAME="metamorfozis_w5" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OkienkoSave.cpp" FORMNAME="Saves" UNITNAME="OkienkoSave" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OkienkoPowitalne.cpp" FORMNAME="Form2" UNITNAME="OkienkoPowitalne" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Funkcje.cpp" FORMNAME="" UNITNAME="Funkcje" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Metamorfoza.todo" FORMNAME="" UNITNAME="Metamorfoza" CONTAINERID="ToDo" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ZbiorTablic.cpp" FORMNAME="" UNITNAME="ZbiorTablic" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="termopara.cpp" FORMNAME="" UNITNAME="termopara" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Wykres.cpp" FORMNAME="" UNITNAME="Wykres" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="StrukturaOpcje.cpp" FORMNAME="" UNITNAME="StrukturaOpcje" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RamkaOpcje.cpp" FORMNAME="OknoOpcje" UNITNAME="RamkaOpcje" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Eksport.cpp" FORMNAME="" UNITNAME="Eksport" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Definicje.cpp" FORMNAME="" UNITNAME="Definicje" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WykresPunktowy.cpp" FORMNAME="WykresPktForm" UNITNAME="WykresPunktowy" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitPrzelicznik.cpp" FORMNAME="Przelicznik" UNITNAME="UnitPrzelicznik" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ZapisOdczytSesji.cpp" FORMNAME="" UNITNAME="ZapisOdczytSesji" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Rejestr.cpp" FORMNAME="" UNITNAME="Rejestr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Prezentacja.cpp" FORMNAME="FormularzOpcjiPrezentacji" UNITNAME="Prezentacja" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ksztalt.cpp" FORMNAME="Form3" UNITNAME="ksztalt" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Odczyt.cpp" FORMNAME="" UNITNAME="Odczyt" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Punkty.cpp" FORMNAME="" UNITNAME="Punkty" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Test.cpp" FORMNAME="FormTest" UNITNAME="Test" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=2
+MinorVer=1
+Release=0
+Build=7
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1045
+CodePage=1250
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=2.1.0.7
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+
+[Excluded Packages]
+c:\program files\programywinxp\builder6\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=C:\Program Files\ProgramyWinXP\Builder6\Projects;..\..\..;c:\Personal\Jarek\programowanie\builder;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\..\..;c:\Personal\Jarek\programowanie\builder\;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item2=c:\Personal\Jarek\programowanie\builder\;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item3=c:\Personal\Jarek\programowanie\builder;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item5=..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item6=..\;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=7
+Item0=C:\Program Files\ProgramyWinXP\Builder6\Projects;..\..\..;c:\Personal\Jarek\programowanie\builder;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\..;c:\Personal\Jarek\programowanie\builder\;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item2=c:\Personal\Jarek\programowanie\builder\;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item3=c:\Personal\Jarek\programowanie\builder;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item6=..\;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_USE_OLD_RW_STL
+
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+
+[Debugging]
+DebugSourceDirs=
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

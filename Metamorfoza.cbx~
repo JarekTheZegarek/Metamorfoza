@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="Metamorfoza.exe"/>
+    <OBJFILES value="Metamorfoza.obj metamorfozis_w5.obj OkienkoSave.obj OkienkoPowitalne.obj 
+      Funkcje.obj ZbiorTablic.obj termopara.obj Wykres.obj StrukturaOpcje.obj 
+      RamkaOpcje.obj Eksport.obj Definicje.obj WykresPunktowy.obj 
+      UnitPrzelicznik.obj ZapisOdczytSesji.obj"/>
+    <RESFILES value="Metamorfoza.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) metamorfozis_w5.dfm OkienkoSave.dfm OkienkoPowitalne.dfm 
+      RamkaOpcje.dfm WykresPunktowy.dfm UnitPrzelicznik.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vcldbx50.lib vclbde50.lib vcldb50.lib vclx50.lib vcl50.lib"/>
+    <SPARELIBS value="vcl50.lib vclx50.lib vcldb50.lib vclbde50.lib vcldbx50.lib"/>
+    <PACKAGES value="Vcl50.bpi Vclx50.bpi bcbsmp50.bpi Vcldb50.bpi vclado50.bpi ibsmp50.bpi 
+      VCLBDE50.bpi vcldbx50.bpi Qrpt50.bpi TeeUI50.bpi TeeDB50.bpi Tee50.bpi 
+      Dss50.bpi TeeQR50.bpi VCLIB50.bpi Vclmid50.bpi vclie50.bpi Inetdb50.bpi 
+      Inet50.bpi NMFast50.bpi webmid50.bpi bcbie50.bpi dclocx50.bpi 
+      bcb97axserver50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Metamorfoza.cpp"/>
+    <INCLUDEPATH value="c:\Personal\Jarek\programowanie\builder\;..\Wersja3;&quot;..\Wersja 2&quot;;..;..\..\..\..;..\..\Projekt4;&quot;..\..\wszystkie pliki 3&quot;;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="c:\Personal\Jarek\programowanie\builder\;..\Wersja3;&quot;..\Wersja 2&quot;;..;..\..\..\..;..\..\Projekt4;&quot;..\..\wszystkie pliki 3&quot;;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Ic:\Personal\Jarek\programowanie\builder\. -I..\Wersja3 -I&quot;..\Wersja 2&quot; 
+      -I.. -I..\..\..\.. -I..\..\Projekt4 -I&quot;..\..\wszystkie pliki 3&quot; 
+      -I..\..\wszystkpliki_2 -I$(BCB)\bin -I$(BCB)\include -I$(BCB)\include\vcl 
+      -src_suffix cpp -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcld.csm -Hc -Vx -Ve -X- -r- -a4 
+      -b- -k -y -v -vi- -c -tWM"/>
+    <CFLAG2 value=""/>
+    <CFLAG3 value=""/>
+    <PFLAGS value="-AWinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE 
+      -$YD -$W -$O- -v -JPHNV -M -JPHNE"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -v"/>
+    <IFLAGS value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=2
+MinorVer=1
+Release=0
+Build=5
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1045
+CodePage=1250
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=2.1.0.5
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+
+[Excluded Packages]
+$(BCB)\Bin\dcl31w50.bpl=Delphi 1.0 Compatibility Components
+$(BCB)\Bin\dclado50.bpl=Borland ADO DB Components
+F:\WINNT\System32\ibsmp50.bpl=Borland C++ InterBase Alerter Component
+$(BCB)\Bin\dclqrt50.bpl=QuickReport Components
+$(BCB)\Bin\dcldss50.bpl=Borland Decision Cube Components
+$(BCB)\Bin\applet50.bpl=Borland Control Panel Applet Package
+$(BCB)\Bin\DCLIB50.bpl=InterBase Data Access Components
+$(BCB)\Bin\dclsmpedit50.bpl=Borland Editor Script Enhancements
+$(BCB)\Bin\dclmid50.bpl=Borland MIDAS Components
+$(BCB)\Bin\dclnet50.bpl=Borland Internet Components
+$(BCB)\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+$(BCB)\Bin\DCLNMF50.bpl=NetMasters Fastnet Tools
+$(BCB)\Bin\dclwbm50.bpl=Borland InternetExpress Components
+$(BCB)\Bin\bcbie50.bpl=Borland C++Builder Internet Explorer 5 Components Package
+$(BCB)\Bin\dclocx50.bpl=Borland Sample Imported ActiveX Controls
+$(BCB)\Bin\dclite50.bpl=Borland Integrated Translation Environment
+$(BCB)\Bin\mfcwizard.bpl=MFC Wizard
+$(BCB)\Bin\bcb97axserver50.bpl=Borland C++Builder COM Server Components Sample Package
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=c:\Personal\Jarek\programowanie\builder\;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item1=c:\Personal\Jarek\programowanie\builder;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item3=..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+Item4=..\;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=c:\Personal\Jarek\programowanie\builder\;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item1=c:\Personal\Jarek\programowanie\builder;..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\Wersja3;..\Wersja 2;..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item3=..;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+Item4=..\;..\..\..\..;..\..\Projekt4;..\..\wszystkie pliki 3;..\..\wszystkpliki_2;$(BCB)\bin;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+
+[Debugging]
+DebugSourceDirs=
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
